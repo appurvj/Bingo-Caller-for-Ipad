@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4AFB051720C34F004B1FDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4AFB041720C34F004B1FDF /* UIKit.framework */; };
+		DB4AFB071720C34F004B1FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4AFB061720C34F004B1FDF /* Foundation.framework */; };
+		DB4AFB091720C34F004B1FDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4AFB081720C34F004B1FDF /* CoreGraphics.framework */; };
+		DB4AFB0F1720C34F004B1FDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB0D1720C34F004B1FDF /* InfoPlist.strings */; };
+		DB4AFB111720C34F004B1FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AFB101720C34F004B1FDF /* main.m */; };
+		DB4AFB151720C34F004B1FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AFB141720C34F004B1FDF /* AppDelegate.m */; };
+		DB4AFB171720C34F004B1FDF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB161720C34F004B1FDF /* Default.png */; };
+		DB4AFB191720C34F004B1FDF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB181720C34F004B1FDF /* Default@2x.png */; };
+		DB4AFB1B1720C34F004B1FDF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB1A1720C34F004B1FDF /* Default-568h@2x.png */; };
+		DB4AFB1E1720C34F004B1FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AFB1D1720C34F004B1FDF /* ViewController.m */; };
+		DB4AFB211720C34F004B1FDF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB1F1720C34F004B1FDF /* ViewController.xib */; };
+		DB4AFB281720C86B004B1FDF /* tiger_walking_rit_color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB271720C86B004B1FDF /* tiger_walking_rit_color.jpg */; };
+		DB4AFB2A1720CC34004B1FDF /* RIT-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB291720CC34004B1FDF /* RIT-Logo.png */; };
+		DB4AFB2E1720CF63004B1FDF /* NumberScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AFB2C1720CF63004B1FDF /* NumberScreen.m */; };
+		DB4AFB2F1720CF63004B1FDF /* NumberScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB2D1720CF63004B1FDF /* NumberScreen.xib */; };
+		DB4AFB331720E9A5004B1FDF /* CalledNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AFB311720E9A4004B1FDF /* CalledNumbers.m */; };
+		DB4AFB341720E9A5004B1FDF /* CalledNumbers.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4AFB321720E9A4004B1FDF /* CalledNumbers.xib */; };
+		DB94792517264860005AD238 /* PrevNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = DB94792317264860005AD238 /* PrevNumbers.m */; };
+		DB94792617264860005AD238 /* PrevNumbers.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB94792417264860005AD238 /* PrevNumbers.xib */; };
+		DBEADC60172908EE0087D961 /* bingo_cage.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEADC5F172908ED0087D961 /* bingo_cage.png */; };
+		DBEADC62172909A20087D961 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEADC61172909A20087D961 /* Default-Portrait~ipad.png */; };
+		DBEADC64172909AA0087D961 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEADC63172909AA0087D961 /* Default-Portrait@2x~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB4AFB011720C34F004B1FDF /* Grocery Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Bingo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4AFB041720C34F004B1FDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB4AFB061720C34F004B1FDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB4AFB081720C34F004B1FDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB4AFB0C1720C34F004B1FDF /* Grocery Bingo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grocery Bingo-Info.plist"; sourceTree = "<group>"; };
+		DB4AFB0E1720C34F004B1FDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4AFB101720C34F004B1FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4AFB121720C34F004B1FDF /* Grocery Bingo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grocery Bingo-Prefix.pch"; sourceTree = "<group>"; };
+		DB4AFB131720C34F004B1FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB4AFB141720C34F004B1FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB4AFB161720C34F004B1FDF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB4AFB181720C34F004B1FDF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB4AFB1A1720C34F004B1FDF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB4AFB1C1720C34F004B1FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB4AFB1D1720C34F004B1FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB4AFB201720C34F004B1FDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DB4AFB271720C86B004B1FDF /* tiger_walking_rit_color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger_walking_rit_color.jpg; sourceTree = "<group>"; };
+		DB4AFB291720CC34004B1FDF /* RIT-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RIT-Logo.png"; sourceTree = "<group>"; };
+		DB4AFB2B1720CF63004B1FDF /* NumberScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberScreen.h; path = ../NumberScreen.h; sourceTree = "<group>"; };
+		DB4AFB2C1720CF63004B1FDF /* NumberScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberScreen.m; path = ../NumberScreen.m; sourceTree = "<group>"; };
+		DB4AFB2D1720CF63004B1FDF /* NumberScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NumberScreen.xib; path = ../NumberScreen.xib; sourceTree = "<group>"; };
+		DB4AFB301720E9A4004B1FDF /* CalledNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalledNumbers.h; path = ../CalledNumbers.h; sourceTree = "<group>"; };
+		DB4AFB311720E9A4004B1FDF /* CalledNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalledNumbers.m; path = ../CalledNumbers.m; sourceTree = "<group>"; };
+		DB4AFB321720E9A4004B1FDF /* CalledNumbers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalledNumbers.xib; path = ../CalledNumbers.xib; sourceTree = "<group>"; };
+		DB94792217264860005AD238 /* PrevNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrevNumbers.h; sourceTree = "<group>"; };
+		DB94792317264860005AD238 /* PrevNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrevNumbers.m; sourceTree = "<group>"; };
+		DB94792417264860005AD238 /* PrevNumbers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrevNumbers.xib; sourceTree = "<group>"; };
+		DBEADC5F172908ED0087D961 /* bingo_cage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bingo_cage.png; path = ../bingo_cage.png; sourceTree = "<group>"; };
+		DBEADC61172909A20087D961 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		DBEADC63172909AA0087D961 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4AFAFE1720C34F004B1FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AFB051720C34F004B1FDF /* UIKit.framework in Frameworks */,
+				DB4AFB071720C34F004B1FDF /* Foundation.framework in Frameworks */,
+				DB4AFB091720C34F004B1FDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4AFAF81720C34F004B1FDF = {
+			isa = PBXGroup;
+			children = (
+				DB4AFB0A1720C34F004B1FDF /* Trial */,
+				DB4AFB031720C34F004B1FDF /* Frameworks */,
+				DB4AFB021720C34F004B1FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4AFB021720C34F004B1FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AFB011720C34F004B1FDF /* Grocery Bingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4AFB031720C34F004B1FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AFB041720C34F004B1FDF /* UIKit.framework */,
+				DB4AFB061720C34F004B1FDF /* Foundation.framework */,
+				DB4AFB081720C34F004B1FDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4AFB0A1720C34F004B1FDF /* Trial */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AFB131720C34F004B1FDF /* AppDelegate.h */,
+				DB4AFB141720C34F004B1FDF /* AppDelegate.m */,
+				DB4AFB1C1720C34F004B1FDF /* ViewController.h */,
+				DB4AFB1D1720C34F004B1FDF /* ViewController.m */,
+				DB4AFB1F1720C34F004B1FDF /* ViewController.xib */,
+				DB4AFB2B1720CF63004B1FDF /* NumberScreen.h */,
+				DB4AFB2C1720CF63004B1FDF /* NumberScreen.m */,
+				DB4AFB2D1720CF63004B1FDF /* NumberScreen.xib */,
+				DB4AFB301720E9A4004B1FDF /* CalledNumbers.h */,
+				DB4AFB311720E9A4004B1FDF /* CalledNumbers.m */,
+				DB4AFB321720E9A4004B1FDF /* CalledNumbers.xib */,
+				DB94792217264860005AD238 /* PrevNumbers.h */,
+				DB94792317264860005AD238 /* PrevNumbers.m */,
+				DB94792417264860005AD238 /* PrevNumbers.xib */,
+				DB4AFB0B1720C34F004B1FDF /* Supporting Files */,
+			);
+			path = Trial;
+			sourceTree = "<group>";
+		};
+		DB4AFB0B1720C34F004B1FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBEADC63172909AA0087D961 /* Default-Portrait@2x~ipad.png */,
+				DBEADC61172909A20087D961 /* Default-Portrait~ipad.png */,
+				DBEADC5F172908ED0087D961 /* bingo_cage.png */,
+				DB4AFB291720CC34004B1FDF /* RIT-Logo.png */,
+				DB4AFB271720C86B004B1FDF /* tiger_walking_rit_color.jpg */,
+				DB4AFB0C1720C34F004B1FDF /* Grocery Bingo-Info.plist */,
+				DB4AFB0D1720C34F004B1FDF /* InfoPlist.strings */,
+				DB4AFB101720C34F004B1FDF /* main.m */,
+				DB4AFB121720C34F004B1FDF /* Grocery Bingo-Prefix.pch */,
+				DB4AFB161720C34F004B1FDF /* Default.png */,
+				DB4AFB181720C34F004B1FDF /* Default@2x.png */,
+				DB4AFB1A1720C34F004B1FDF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4AFB001720C34F004B1FDF /* Grocery Bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AFB241720C34F004B1FDF /* Build configuration list for PBXNativeTarget "Grocery Bingo" */;
+			buildPhases = (
+				DB4AFAFD1720C34F004B1FDF /* Sources */,
+				DB4AFAFE1720C34F004B1FDF /* Frameworks */,
+				DB4AFAFF1720C34F004B1FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocery Bingo";
+			productName = Trial;
+			productReference = DB4AFB011720C34F004B1FDF /* Grocery Bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4AFAF91720C34F004B1FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Amrith Akula";
+			};
+			buildConfigurationList = DB4AFAFC1720C34F004B1FDF /* Build configuration list for PBXProject "Grocery Bingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB4AFAF81720C34F004B1FDF;
+			productRefGroup = DB4AFB021720C34F004B1FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4AFB001720C34F004B1FDF /* Grocery Bingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4AFAFF1720C34F004B1FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AFB0F1720C34F004B1FDF /* InfoPlist.strings in Resources */,
+				DB4AFB171720C34F004B1FDF /* Default.png in Resources */,
+				DB4AFB191720C34F004B1FDF /* Default@2x.png in Resources */,
+				DB4AFB1B1720C34F004B1FDF /* Default-568h@2x.png in Resources */,
+				DB4AFB211720C34F004B1FDF /* ViewController.xib in Resources */,
+				DB4AFB281720C86B004B1FDF /* tiger_walking_rit_color.jpg in Resources */,
+				DB4AFB2A1720CC34004B1FDF /* RIT-Logo.png in Resources */,
+				DB4AFB2F1720CF63004B1FDF /* NumberScreen.xib in Resources */,
+				DB4AFB341720E9A5004B1FDF /* CalledNumbers.xib in Resources */,
+				DB94792617264860005AD238 /* PrevNumbers.xib in Resources */,
+				DBEADC60172908EE0087D961 /* bingo_cage.png in Resources */,
+				DBEADC62172909A20087D961 /* Default-Portrait~ipad.png in Resources */,
+				DBEADC64172909AA0087D961 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4AFAFD1720C34F004B1FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AFB111720C34F004B1FDF /* main.m in Sources */,
+				DB4AFB151720C34F004B1FDF /* AppDelegate.m in Sources */,
+				DB4AFB1E1720C34F004B1FDF /* ViewController.m in Sources */,
+				DB4AFB2E1720CF63004B1FDF /* NumberScreen.m in Sources */,
+				DB4AFB331720E9A5004B1FDF /* CalledNumbers.m in Sources */,
+				DB94792517264860005AD238 /* PrevNumbers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB4AFB0D1720C34F004B1FDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4AFB0E1720C34F004B1FDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB4AFB1F1720C34F004B1FDF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4AFB201720C34F004B1FDF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB4AFB221720C34F004B1FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "AC38866D-E1BA-4FC6-9E71-DAD966E35E10";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC38866D-E1BA-4FC6-9E71-DAD966E35E10";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DB4AFB231720C34F004B1FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "AC38866D-E1BA-4FC6-9E71-DAD966E35E10";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC38866D-E1BA-4FC6-9E71-DAD966E35E10";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4AFB251720C34F004B1FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trial/Grocery Bingo-Prefix.pch";
+				INFOPLIST_FILE = "Trial/Grocery Bingo-Info.plist";
+				PRODUCT_NAME = "Grocery Bingo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB4AFB261720C34F004B1FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Reynold Bailey (8CV555422J)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trial/Grocery Bingo-Prefix.pch";
+				INFOPLIST_FILE = "Trial/Grocery Bingo-Info.plist";
+				PRODUCT_NAME = "Grocery Bingo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4AFAFC1720C34F004B1FDF /* Build configuration list for PBXProject "Grocery Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AFB221720C34F004B1FDF /* Debug */,
+				DB4AFB231720C34F004B1FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4AFB241720C34F004B1FDF /* Build configuration list for PBXNativeTarget "Grocery Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AFB251720C34F004B1FDF /* Debug */,
+				DB4AFB261720C34F004B1FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4AFAF91720C34F004B1FDF /* Project object */;
+}
